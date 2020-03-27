@@ -1,12 +1,23 @@
-.breadcrumb {
-  font-size: 18px;
-  color: #c3c3c3;
+.divider {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.breadcrumb:before {
-    color: #f4ff81;
+.tabs .tab a{
+    color:#7b8081;
+}
+.tabs .tab a:hover,.tabs .tab a.active {
+	background-color:#ffffff;
+	color:#3e4984;
+}
+.tabs .tab.disabled a,.tabs .tab.disabled a:hover {
+	color:rgba(102,147,153,0.7);
+}
+.tabs .indicator {
+	background-color:#8BC34A;
 }
 
-.breadcrumb:last-child {
-  color: #12CAD6 ;
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(178, 246, 228, 0.2);
+    outline: none;
 }
